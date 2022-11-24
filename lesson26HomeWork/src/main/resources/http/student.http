@@ -1,0 +1,9 @@
+### create book
+POST localhost:8080/student
+Content-Type:  application/json
+
+{
+  "name": "Ali",
+  "surname": "Aliyev",
+  "phone": "2022"
+}

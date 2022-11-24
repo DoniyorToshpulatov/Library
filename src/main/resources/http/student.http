@@ -1,0 +1,24 @@
+### create book
+POST localhost:8080/student
+Content-Type:  application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "phone": "1234"
+}
+### get All student
+GET localhost:8080/student
+### get student by id
+GET localhost:8080/student/2
+### delete student by id
+POST localhost:8080/student/10
+### put Student by id
+PUT localhost:8080/student/2
+Content-Type: application/json
+
+{
+  "name": "Doniyor",
+  "surname": "Toshpulatov",
+  "phone": "935092754"
+}

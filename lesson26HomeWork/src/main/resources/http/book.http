@@ -1,0 +1,52 @@
+### create book
+POST localhost:8080/book
+Content-Type:  application/json
+
+{
+  "title": "How to be successfully mazgi.",
+  "author": "Magijons2",
+  "publishedYear": "2022-11-16"
+}
+
+### create book All
+POST localhost:8080/book_all
+Content-Type:  application/json
+
+[
+  {
+    "title": "How to be successfully mazgi.",
+    "author": "Magijons 31",
+    "publishedYear": "2022-11-16"
+  },
+  {
+    "title": "How to be successfully mazgi.",
+    "author": "Magijons 32",
+    "publishedYear": "2022-11-16"
+  },
+  {
+    "title": "How to be successfully mazgi.",
+    "author": "Magijons 33",
+    "publishedYear": "2022-11-16"
+  }
+]
+
+### get book by id
+GET localhost:8080/book/1
+
+
+### get book list
+GET localhost:8080/book
+
+
+###  delete book
+DELETE localhost:8080/book/2
+
+### create book
+PUT localhost:8080/book/1
+Content-Type:  application/json
+
+{
+  "title": "How to be successfully mazgi.",
+  "author": "Magijons222222222",
+  "publishedYear": "2022-11-16"
+}
